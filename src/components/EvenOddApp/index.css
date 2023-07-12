@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+}
+
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  color: #0f172a;
+  text-align: center;
+}
+.description {
+  font-size: 21px;
+  color: #334155;
+  font-family: 'Roboto';
+  padding: 5px;
+}
+.button {
+  background-color: #ffffff;
+  color: #334155;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 150px;
+  font-size: 12px;
+  border-radius: 8px;
+}
+.condition {
+  font-size: 15px;
+  color: #1e293b;
+  font-family: 'Roboto';
+}
